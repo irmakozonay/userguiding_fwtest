@@ -8,7 +8,8 @@ Pod::Spec.new do |spec|
   spec.license      = "BSD"
   spec.author             = { "irmakozonay" => "irmakozonay@gmail.com" }
   spec.platform     = :ios, "14.0"
-  spec.source       = { :git => "https://github.com/irmakozonay/cheerapp_web.git", :tag => "1.0.0" }
-  spec.source_files  = "UserGuidingFramework/**"
+  spec.swift_version = '5.0'
+  spec.source       = { :git => "https://github.com/irmakozonay/userguiding_fwtest.git", :tag => "1.0.0" }
+  spec.source_files  = "UserGuidingFramework/**/*.{h,m,swift,xcdatamodeld}"
 
 end
